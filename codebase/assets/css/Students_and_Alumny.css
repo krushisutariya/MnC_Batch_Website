@@ -1,0 +1,328 @@
+.s {
+  padding: 5vh;
+  font-size: 2rem; 
+  text-align: center;
+  width: 100%;
+  background-color: #edf2f4;
+  border-top: 5px solid #2b2d42;
+  border-bottom: 5px solid #2b2d42;
+  margin-top: 2%;
+  color: #2b2d42;
+}
+
+.s hr {
+  width: 50%; 
+  margin: 1% auto;
+  height: 5px;
+  background-color: #2b2d42;
+}
+
+.stu_and_alu 
+{
+  display: flex;  
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+  width: 100%;
+  margin-bottom: 2rem;
+  background-color: #f6f9fd;
+}
+
+.stu_and_alu .part
+{
+    width: 100%;
+    display: flex;  
+    flex-direction: column; 
+    align-items: center;
+}
+
+.stu_and_alu .part .student 
+{
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.stu_and_alu .part .student .year 
+{
+   display: flex;
+   justify-content: space-evenly;
+   width: 100%;
+   font-size: 1.5rem;
+   padding-top: 2%;
+   padding-bottom: 2%;
+   background-color: #EDF2F4;
+   margin: 2%;
+   border-radius: 5px;
+   box-shadow: 2px 2px 5px #8D99AE;
+}
+.stu_and_alu .part .student .details 
+{
+    width: 100%;
+    box-shadow: 2px 2px 5px #8D99AE;
+    border-radius: 5px;
+    text-align: center;
+    height: 10%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.stu_and_alu .part .student .year .y
+{
+    padding: 1%;
+    width: 16%;
+    text-align: center;
+    margin: 2%;
+    background-color: #8D99AE;
+    color: white;
+    border-radius: 5px;
+    height: 8vh;
+    box-shadow: 5px 5px 10px  #2B2D42;
+    cursor: pointer;
+}
+.stu_and_alu .part .student .year .y.active
+{
+    background-color: #2B2D42;
+    color: white;
+      
+}
+.stu_and_alu .part .student .list
+{
+    display: none; 
+    border-radius: 5px;
+    width: 90%;
+
+}
+.stu_and_alu .part .student .list.active
+{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+}
+
+.stu_and_alu .part .student .list .year 
+{
+    color: white;
+    text-align: center;
+    background-color: #EF233C;
+    border-radius: 5px 5px 0px 0px;
+    width:96%;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    border: 0px solid black;
+}
+.table 
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.stu_and_alu .part .student .list.active .table table {
+    border-collapse: collapse; 
+    width: 100%;
+    margin: 3%;
+    font-size: 1em; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #EDF2F4; 
+}
+
+th, td {
+    padding: 2% 2%; 
+    border: 3px solid #2B2D42; 
+    height: 20px;
+}
+
+th {
+    background-color: #D90429; 
+    color: white; 
+    font-weight: bold; 
+}
+
+tr:nth-of-type(even) {
+    background-color: #8D99AE; 
+}
+.list.active .table::-webkit-scrollbar
+{
+    display: none;
+    -ms-overflow-style: none;  
+    scrollbar-width: none;    
+}
+
+*{
+    margin: 0;
+}
+
+/* FOOTER */
+
+#footer1 {
+  box-sizing: border-box;
+  background-color: #2B2D42;
+  font-size: 1.2rem;
+  color: #EDF2F4;
+  overflow: hidden;
+  clear: both;
+  height: fit-content;
+  padding: 1vw;
+  padding-bottom: 0px;
+  display: flex;
+  justify-content:space-around;
+  flex-flow:wrap;
+  flex-direction: row;
+}
+
+footer a {
+  text-decoration: none;
+  padding: 5px;
+  float: center;
+  color: #EDF2F4;
+}
+
+#afLogo{
+  text-decoration: none;
+  font-size: 1.3rem;
+  padding-right: 1.5vw;
+}
+
+#afLogofollow{
+  text-decoration: none;
+  font-size: 2rem;
+  padding-right: 1vw;
+}
+
+.foot
+{
+  box-sizing: border-box;
+  min-width: 375px;
+  padding: 4vh;
+}
+
+#bottomfoot
+{
+  background-color: #EDF2F4;
+  color: #2B2D42;
+  clear: both;
+  height: fit-content;
+  padding: 10px;
+  text-align: center;
+  font-size: 1.1em;
+}
+
+#bottomfoot a
+{
+  color: #2B2D42;
+}
+
+#dalogo{
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+#dalogo img{
+  height: 20vh;
+  width: 20vh;
+  border-radius: 10px;
+}
+
+#daname
+{
+  text-align: center;
+  /* color: #ef2d0b; */
+}
+
+#bfa
+{
+  display: flex;
+  justify-content:center;
+  flex-flow:wrap;
+  flex-direction: row;
+}
+
+#leftsubfoot
+{
+  float: left;
+  padding-right: 4%;
+}
+
+#rightsubfoot
+{
+  float: left;
+  padding-right: 4%;
+}
+
+.subfoot
+{
+  width: max-content;
+  float: left;
+}
+
+#mail a:hover {
+  text-decoration: underline;
+}
+
+.icon
+{
+  display: inline-block;
+  margin-bottom: 10%;
+}
+#yout a i {
+  color: #faf7f9;
+}
+
+#yout a i:hover {
+  color: #ef2d0b;
+}
+
+#insta a i {
+ color: #faf7f9; 
+  padding-right: 0px;
+}
+
+#insta a i:hover {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  z-index: -1;
+  border-radius: 7px;
+}
+
+#linked a i {
+  color: #faf7f9;
+
+}
+#linked a i:hover
+{
+  color: #0e4fd1;
+}
+#twit a i 
+{
+  color: #faf7f9;
+}
+#twit a i:hover 
+{
+  color: #0e4fd1;
+}
+#face a i 
+{
+  color: #faf7f9;
+}
+#face a i:hover 
+{
+  color: #1877F2;
+}
+
+@media (max-width: 1280px) {
+  #footmain
+  {
+      min-width: 100%;
+  }
+}
+
+footer h1
+{
+  color: #ef2d0b;
+}
